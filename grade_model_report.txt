@@ -1,0 +1,28 @@
+GRADE MODEL PERFORMANCE
+=======================
+Accuracy : 0.4250
+Precision: 0.5155
+Recall   : 0.4250
+F1 Score : 0.4447
+
+CLASSIFICATION REPORT
+=====================
+              precision    recall  f1-score   support
+
+           A       0.05      1.00      0.09         1
+           B       0.21      0.51      0.30        68
+           C       0.55      0.40      0.47       438
+           D       0.57      0.39      0.46       430
+           F       0.23      0.73      0.35        63
+
+    accuracy                           0.42      1000
+   macro avg       0.32      0.61      0.33      1000
+weighted avg       0.52      0.42      0.44      1000
+
+CONFUSION MATRIX
+================
+[[  1   0   0   0   0]
+ [ 11  35  22   0   0]
+ [  9 112 177 112  28]
+ [  0  18 118 166 128]
+ [  0   0   2  15  46]]
